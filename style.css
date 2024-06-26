@@ -15,12 +15,10 @@
   --grid-ground: linear-gradient(to right, #080808, #393a37);
 }
 h1, h2{
-  font-size: 1em;
   line-height: 1.4em;
   letter-spacing: 0.1em;
 }
 p{
-  font-size: 0.9em;
   line-height: 1.2em;
   letter-spacing: 0.05em;
 }
@@ -35,7 +33,6 @@ body {
   background: var(--back-ground);
 }
 body .hd1{
-  font-size: 1.2em;
   margin-top: 15px;
   color: var(--akan-button);
 }
@@ -124,6 +121,7 @@ input , button{
   border-radius: 5%;
   background-color: rgba(222, 222, 222, 0);
   transition: all 0.3s ease-in-out;
+  font-size: 0.8rem;
 }
 
 label{
@@ -227,8 +225,5 @@ button:hover{
     padding: 10px;
     align-items: flex-start;
   }
-  .nav h1, h2 p{
-    font-size: 1em;
-  } 
   
 }
