@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AKAN</title>
+</head>
+
+<body>
+    <div class="akan_page">
+        <a href="./index.html"><button id="back"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061A1.125 1.125 0 0 1 21 8.689v8.122ZM11.25 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061a1.125 1.125 0 0 1 1.683.977v8.122Z" />
+                </svg>
+            </button></a>
+        <h2>Generate Akan Names</h2>
+        <div class="items">
+            <div id="nameForm">
+                <form>
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+
+                    <label for="gender">Gender:</label>
+                    <input list="genders" id="gender" name="gender" required>
+                    <datalist id="genders">
+                        <option value="Male">
+                        <option value="Female">
+                    </datalist>
+
+                    <button type="submit" id="gen">Generate Name</button>
+                    <button type="reset" class="none" id="reset"> reset</button>
+                </form>
+            </div>
+            <div id="result" class="none">
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
