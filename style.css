@@ -134,13 +134,6 @@ label{
   margin: 0 10px;
 }
 
-body{
-  background: linear-gradient(116deg, rgb(137, 84, 43) 0%,rgba(80, 77, 75, 1)  100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
 .akan_page{
   display: flex;
   flex-direction: column;
