@@ -238,9 +238,9 @@ button:hover {
   .hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 1fr;
+    grid-template-rows: 400px auto;
     gap: 0px;
-    height: fit-content;
+    max-height: fit-content;
   }
 
   .image {
