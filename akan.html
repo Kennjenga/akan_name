@@ -23,12 +23,11 @@
                     <label for="birthdate">Birthdate:</label>
                     <input type="date" id="birthdate" name="birthdate" required>
 
-                    <label for="gender">Gender:</label>
-                    <input list="genders" id="gender" name="gender" required>
-                    <datalist id="genders">
+                    <label for="gender">Select Gender:</label>
+                    <select id="gender" name="gender" required>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
-                    </datalist>
+                    </select>
 
                     <button type="submit" id="gen">Generate Name</button>
                     <button type="reset" class="none" id="reset"> reset</button>
