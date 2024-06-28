@@ -132,7 +132,7 @@ body .hd1 {
 }
 
 input, button, select, option {
-  outline: none;
+  border: none;
   width: 300px;
   height: 30px;
   margin: 10px;
@@ -175,11 +175,11 @@ label {
 }
 
 #nameForm {
-  background-color: var(--text-color);
+  background-color: rgba(255, 255, 255, 0.4);
   margin-top: 15px;
   min-height: 250px;
   height: fit-content;
-  border-radius: 10%;
+  border-radius: 5%;
   padding: 10px 0;
 }
 
